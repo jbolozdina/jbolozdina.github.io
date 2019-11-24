@@ -53,7 +53,15 @@ body {
 }
 
 #side{
+	background: #f1c40f;
 	float: right;
+	width: 300px;
+	text-align: center;
 }
 
+.vl {
+	border-left: 6px solid green;
+	height: 1080px;
+	float: left
+}
 
