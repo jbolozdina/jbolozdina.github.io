@@ -7,7 +7,7 @@ body {
 }
 
 #header{
-	
+	background: #2ecc71;
 }
 
 #left{
@@ -45,6 +45,7 @@ body {
 #content{
 	clear: both;
 	background: #1abc9c;
+	height: 1080px;
 }
 
 #main{
