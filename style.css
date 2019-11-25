@@ -6,6 +6,9 @@ body {
 	
 }
 
+hr{
+	border: 3px solid green;
+}
 #header{
 	background: #2ecc71;
 }
@@ -49,6 +52,8 @@ body {
 }
 
 #main{
+	margin-left: 30%;
+	text-align: center;
 	float: left;
 }
 
