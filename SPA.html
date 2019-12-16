@@ -40,7 +40,7 @@
           background-position: center;
           background-size: cover;
         }
-        .navbar-default{
+        .navbar-fixed-top{
             background-color:#FFCCBC;
             border-color:#FFCCBC;
             margin-bottom:10px;
@@ -71,6 +71,11 @@
         #Text1,#Text2,#Text3,#Text4{
             text-align: center;
         }
+        h2,h3{
+            margin-top: 10px;
+            text-align:center;
+        }
+
     </style>    
 
 </head>
@@ -81,10 +86,10 @@
     Large (lg) >= 1220px  
 -->
 
-<body>
-<div class="container">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="container" id="top">
     
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 
@@ -101,22 +106,25 @@
             </div>
             
             
-                       
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-                    
+                    <li class="active"><a href="#top">Top<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#Text1">PC</a></li>
+                    <li><a href="#Text2">GPU</a></li>
+                    <li><a href="#Text3">CPU</a></li>
+                    <li><a href="#Text4">Motherboard</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="photo.html">Photo</a></li>
-                            <li><a href="video.html">Video</a></li>
+                            <li><a href="#photos">Photo</a></li>
+                            <li><a href="#videos">Video</a></li>
                         </ul>
                     </li>
-                    <li><a href="kontakti.html">About</a></li>
-                    <li><a href="SPA.html">SPA</a></li>
+                    <li><a href="#contacts">About</a></li>
+                    <li><a href="index.html">UN-SPA</a></li>
                 </ul>
             </div>
+  
         </div>
     </nav>
     
@@ -210,6 +218,107 @@ Homebuilt computers are almost always used at home, like home computers, but hom
     </div>
      <div class="row" id="Img4">
         <div id="imag4" class="col-md-12 jumbotron"></div>
+    </div>
+    <div class="row">
+        <div id="photos" class="col-md-12">
+            <h2>Photos</h2>
+        </div>
+    </div>
+    <div style="padding-bottom:20px;" class="row">
+        <div style="padding-bottom:20px;" class="col-lg-6 col-md-6 col-sm-6">
+            <a class="example-image-link" href="images/g1.jpeg" data-lightbox="example-set" data-title="Setting cables up"><img class="example-image" src="images/g1.jpeg" alt="" width="100%"/></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <a class="example-image-link" href="images/g2.jpg" data-lightbox="example-set" data-title="Sticking RAM in"><img class="example-image" src="images/g2.jpg" alt="" width="100%"/></a>
+        </div>
+    </div>
+    <div class="row">
+        <div style="padding-bottom:20px;" class="col-lg-6 col-md-6 col-sm-6">
+            <a class="example-image-link" href="images/g3.jpg" data-lightbox="example-set" data-title="Putting in GPU"><img class="example-image" src="images/g3.jpg" alt="" width="100%"/></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <a class="example-image-link" href="images/g4.jpg" data-lightbox="example-set" data-title="Ready to use PC"><img class="example-image" src="images/g4.jpg" alt="" width="100%"/></a>
+        </div>
+    </div>
+    <div class="row">
+        <div id="videos" class="col-md-12">
+            <h2>Videos</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/1Zt1P41pjE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/q6r28USXsHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/lyDfhrHYz4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/q9adXzJyfPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/sgYFOhgRJRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/8O2wYLJpwoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+        <div class="row">
+        <div id="contacts" class="col-md-12">
+            <h2>Contacts</h2>
+        </div>
+    </div>
+    <div class="row">
+ 
+        <div class="col-md-4">
+            <h3>Tech People</h3>
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jegors</td>
+                        <td>Bolozdiņa</td>
+                        <td>jbolozdina@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Linus</td>
+                        <td>TechTips</td>
+                        <td>linustechtips@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="input-group input-group-sm">
+                <span class="input-group-addon">Review</span>
+                <input type="text" class="form-control" placeholder="Review of this site">
+                <span class="input-group-btn">
+                <button class="btn btn-default">Enter</button>
+                </span>
+            </div>
+        </div>
+    
+        <div class="col-md-8">
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.7560474339343!2d24.10172601597746!3d56.952980780891316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecf7bac058ce9%3A0x96a8a0e931b27448!2z0KDQuNC20YHQutC40Lkg0LPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INGC0LXRhdC90LjQutGD0Lw!5e0!3m2!1sru!2slv!4v1576452340578!5m2!1sru!2slv" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            
+        
+        </div>
+    
     </div>
 </div>
     
