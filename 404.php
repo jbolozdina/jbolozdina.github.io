@@ -15,7 +15,7 @@
             border-color:#FFCCBC;
             margin-bottom:10px;
         }
-        h2{
+        h3, h2{
             margin-top: 10px;
             text-align:center;
         }
@@ -51,7 +51,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="/photo.html">Photo</a></li>
-                            <li class="active"><a href="/video.html">Video</a></li>
+                            <li><a href="/video.html">Video</a></li>
                         </ul>
                     </li>
                     <li><a href="/kontakti.php">About</a></li>
@@ -60,33 +60,12 @@
             </div>
         </div>
     </nav>
-    
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Videos</h2>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/1Zt1P41pjE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/q6r28USXsHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/lyDfhrHYz4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/q9adXzJyfPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/sgYFOhgRJRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/8O2wYLJpwoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
 
-</div>
+    
+        
+    </div>
+    <div class="row" style="text-align:center;">
+        <h1>404</h1>
+        <h2>Page not found</h2>
+    </div>
 </body>
